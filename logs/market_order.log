@@ -1,0 +1,5 @@
+2026-03-02 12:27:32,023 - TradingBot - INFO - Preparing to place MARKET order for 0.01 BTCUSDT (BUY)
+2026-03-02 12:27:32,024 - TradingBot - INFO - API Request - Method: POST | Endpoint: /fapi/v1/order | Payload/Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1772434652023}
+2026-03-02 12:27:33,197 - TradingBot - INFO - API Response Summary - Endpoint: /fapi/v1/order | Status: 200
+2026-03-02 12:27:33,198 - TradingBot - INFO - API Response Data: {'orderId': 12574335015, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'YOmSWWdnDKfLH9Dp27lNhg', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1772434652929}
+2026-03-02 12:27:33,198 - TradingBot - INFO - Order successfully placed. Order ID: 12574335015
